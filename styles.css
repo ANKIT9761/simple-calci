@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin:0;
+}
+
+h2{
+    text-align: center;
+}
+.calci-box {
+    width:400px;
+    background-color:black;
+    color:white;
+    margin: 15px auto;
+    height:500px;
+}
+
+.screen{
+    position:relative;
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    font-size:35px;
+    font-family: "Courier New", Courier, monospace;
+    text-align:end;
+    padding:20px 5px;
+    height:200px;
+    width:100%;
+    outline:none;
+    
+}
+
+
+
+.buffer{
+    position:absolute;
+    right:0;
+    top:30px;
+    font-size:40px;
+}
+
+.total-ans{
+    position:absolute;
+    right:0;
+    bottom:0px;
+}
+
+.calci-btns{
+    position:relative;
+    height:300px;
+    
+}
+
+.calci-btn{
+    background-color: #d8d9db;
+    color: black;
+    height: 58.2px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.calci-btn:hover {
+    background-color:#ebebeb;
+}
+
+.calci-btn:active {
+    background-color: #bbbcbe;
+}
+
+.double {
+    width: 49.7%;
+}
+  
+.triple {
+    width: 74.8%;
+}
+
+.calci-btn:last-child {
+    background-color: #df974c;
+    color: white;
+}
+  
+.calci-btn:last-child:hover {
+    background-color: #dfb07e;
+}
+  
+.calc-button:last-child:active {
+    background-color: #dd8d37;
+}
+
+.calci-btn-row{
+    display:flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.calci-btn-row:last-child {
+    padding-bottom: 0;
+}
